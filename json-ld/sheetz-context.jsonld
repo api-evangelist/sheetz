@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "sheetz": "https://api-evangelist.github.io/sheetz/vocab#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "identifier": "schema:identifier",
+    "Store": {
+      "@id": "schema:LocalBusiness",
+      "@type": "@id"
+    },
+    "storeId": {
+      "@id": "sheetz:storeId",
+      "@type": "schema:Text"
+    },
+    "address": {
+      "@id": "schema:address",
+      "@type": "schema:PostalAddress"
+    },
+    "fuelPrice": {
+      "@id": "sheetz:fuelPrice",
+      "@type": "schema:PriceSpecification"
+    },
+    "fuelGrade": {
+      "@id": "sheetz:fuelGrade",
+      "@type": "schema:Text"
+    },
+    "LoyaltyAccount": {
+      "@id": "schema:LoyaltyProgram",
+      "@type": "@id"
+    },
+    "loyaltyPoints": {
+      "@id": "sheetz:loyaltyPoints",
+      "@type": "schema:Number"
+    },
+    "rewardBalance": {
+      "@id": "sheetz:rewardBalance",
+      "@type": "schema:MonetaryAmount"
+    },
+    "Order": {
+      "@id": "schema:Order",
+      "@type": "@id"
+    },
+    "orderId": {
+      "@id": "schema:orderNumber",
+      "@type": "schema:Text"
+    },
+    "orderStatus": {
+      "@id": "schema:orderStatus",
+      "@type": "schema:Text"
+    },
+    "orderItems": {
+      "@id": "schema:orderedItem",
+      "@type": "@id"
+    },
+    "MenuItem": {
+      "@id": "schema:MenuItem",
+      "@type": "@id"
+    },
+    "price": {
+      "@id": "schema:price",
+      "@type": "schema:Number"
+    },
+    "currency": {
+      "@id": "schema:priceCurrency",
+      "@type": "schema:Text"
+    },
+    "SupplierOrder": {
+      "@id": "schema:Order",
+      "@type": "@id"
+    },
+    "purchaseOrderNumber": {
+      "@id": "sheetz:purchaseOrderNumber",
+      "@type": "schema:Text"
+    },
+    "supplier": {
+      "@id": "schema:seller",
+      "@type": "schema:Organization"
+    },
+    "invoiceNumber": {
+      "@id": "sheetz:invoiceNumber",
+      "@type": "schema:Text"
+    },
+    "shipmentDate": {
+      "@id": "schema:orderDate",
+      "@type": "schema:Date"
+    }
+  }
+}

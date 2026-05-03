@@ -1,0 +1,79 @@
+vocabulary:
+  name: Sheetz Vocabulary
+  description: Domain vocabulary for Sheetz convenience store operations, loyalty, and B2B integrations.
+  version: '1.0'
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  terms:
+    - term: MySheetz Card
+      definition: The Sheetz customer loyalty rewards program card that allows customers to earn and redeem points on purchases.
+      category: Loyalty
+      tags:
+        - Loyalty
+        - Rewards
+    - term: Sheetz Rewards
+      definition: Points-based loyalty program powered by Ignite Retail Technology offering discounts, free items, and exclusive deals.
+      category: Loyalty
+      tags:
+        - Loyalty
+        - Points
+    - term: MTO (Made-To-Order)
+      definition: Sheetz's custom food preparation service where customers order made-to-order food and beverages at touchscreen kiosks or via mobile app.
+      category: Food Service
+      tags:
+        - Food Service
+        - Mobile
+    - term: SheetzApp
+      definition: The official Sheetz mobile application enabling order ahead, rewards management, fuel payment, and store location services.
+      category: Mobile
+      tags:
+        - Mobile
+        - App
+    - term: Sheetz Distribution Services
+      definition: The B2B distribution arm of Sheetz handling supplier integrations, purchase orders, and inventory management via EDI and API.
+      category: B2B
+      tags:
+        - B2B
+        - Supply Chain
+    - term: EDI Integration
+      definition: Electronic Data Interchange standard enabling automated exchange of business documents between Sheetz and its suppliers.
+      category: Integration
+      tags:
+        - EDI
+        - Integration
+    - term: Advance Ship Notice (ASN)
+      definition: EDI document (856) sent by suppliers to notify Sheetz of upcoming shipments including item details, quantities, and shipping information.
+      category: Supply Chain
+      tags:
+        - EDI
+        - Supply Chain
+    - term: Fuel Pricing
+      definition: Real-time fuel price data for unleaded, diesel, and alternative fuel grades at Sheetz locations.
+      category: Fuel
+      tags:
+        - Fuel
+        - Pricing
+    - term: Z-card
+      definition: Sheetz gift card used for purchases across all store locations and online orders.
+      category: Payments
+      tags:
+        - Payments
+        - Gift Card
+    - term: Fryz
+      definition: Sheetz brand name for their signature fresh-cut french fries, a popular MTO menu item.
+      category: Food Service
+      tags:
+        - Food Service
+        - Brand
+    - term: Sheetz Bros. Coffee
+      definition: Sheetz's private-label coffee brand offering a wide range of espresso, cold brew, and seasonal coffee drinks available in-store and via mobile ordering.
+      category: Beverage
+      tags:
+        - Coffee
+        - Brand
+    - term: Point-of-Sale (POS) Integration
+      definition: API and hardware integration connecting Sheetz POS systems with loyalty, payment, and ordering platforms.
+      category: Technology
+      tags:
+        - POS
+        - Integration
