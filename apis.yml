@@ -43,7 +43,7 @@ tags:
   - Fortune 500
   - Fuel
   - Retail
-type: Contract
+kind: contract
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sheetz_logo.svg/2560px-Sheetz_logo.svg.png
 access: 3rd-Party
 created: '2025-01-01'
@@ -72,11 +72,11 @@ common:
   - url: https://www.sheetz.com/careers
     type: Careers
   - url: https://www.sheetz.com/legal/privacy-policy
-    type: Privacy Policy
+    type: PrivacyPolicy
   - url: https://www.sheetz.com/legal/terms-of-use
-    type: Terms of Service
+    type: TermsOfService
   - url: https://github.com/sheetz
-    type: GitHub Organization
+    type: GitHubOrganization
   - type: Features
     data:
       - name: Mobile Ordering
