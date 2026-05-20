@@ -63,6 +63,8 @@ maintainers:
     email: kin@apievangelist.com
 specificationVersion: '0.19'
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sheetz
   - url: https://www.sheetz.com
     type: Website
   - url: https://www.sheetz.com/mySheetz
