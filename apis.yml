@@ -111,3 +111,5 @@ common:
         description: Third-party EDI provider enabling supplier connectivity to Sheetz Distribution Services.
       - name: Verifone
         description: POS and payment terminal integration at Sheetz store locations.
+  - type: LLMsTxt
+    url: https://sheetz.com/llms.txt
