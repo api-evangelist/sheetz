@@ -63,6 +63,8 @@ maintainers:
     email: kin@apievangelist.com
 specificationVersion: '0.19'
 common:
+  - type: DomainSecurity
+    url: security/sheetz-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/sheetz
   - url: https://www.sheetz.com
@@ -113,3 +115,5 @@ common:
         description: POS and payment terminal integration at Sheetz store locations.
   - type: LlmsText
     url: https://sheetz.com/llms.txt
+  - url: https://www.sheetz.com/newsroom
+    type: Blog
