@@ -37,6 +37,13 @@ apis:
       API-based integrations.
 name: Sheetz
 tags:
+  - Convenience Stores
+  - Energy
+  - Food Service
+  - Fortune 500
+  - Fuel
+  - Retail
+tags_raw:
   - Convenience Store
   - Energy
   - Food Service
